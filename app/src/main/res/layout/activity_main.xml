@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성은's 야갤머신"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="시작하자"
+            android:textColor="#fff"/>
+    <Button
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="갤 바꾸기"
+        android:layout_gravity="right"
+        android:textColor="#000"/>
+    <ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content">
+
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="외쳐 EE!!"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:background="@android:color/darker_gray"/>
+
+
+
+    </ScrollView>
+</LinearLayout>
+
